@@ -2,73 +2,18 @@
 
 ## Índice
 
-1. [Introducción](#introducción)
-   - Objetivo de la actividad
-   - Flujo de trabajo con Git
-
-2. [Configuración Inicial de Git](#configuración-inicial-de-git)
-   - Configuración del Editor de Comandos
-   - Configuración del Visor de Mensajes para `git diff` y `git log`
-   - Consulta de las Variables de Configuración de Git
-   - Configuración de Colores en Git
-  
-3. [Creación del Proyecto y Repositorio en GitHub](#creación-del-proyecto-y-repositorio-en-github)
-   - Crear la Carpeta del Proyecto
-   - Crear un Repositorio Público en GitHub
-   - Configuración del Repositorio en Línea de Comandos
-   - Confirmación en GitHub
-
-4. [Iniciando el Proyecto](#iniciando-el-proyecto)
-   - Visualización de Archivos en el Directorio
-   - Creación del Archivo `README.md`
-   - Comprobación del Estado de Git
-   - Escribir una Descripción en el Archivo `README.md`
-   - Volver a Comprobar el Estado de Git
-
-5. [Ignorando Archivos](#ignorando-archivos)
-   - Creación de la Carpeta `Excluded`
-   - Creación de Archivos para Pruebas
-   - Creación del Archivo `.gitignore`
-   - Configuración de `.gitignore`
-   - Comprobación del Estado de Git para Archivos Ignorados
-
-6. [Trabajo con Git](#trabajo-con-git)
-   - Creación del Archivo `index.html`
-   - Comprobación del Estado del Proyecto
-   - Añadir Archivo y Realizar Commit
-   - Comprobación Final y Subida de Cambios
-
-7. [Creación de Nuestro Servidor Web y Visualización del Proyecto](#creación-de-nuestro-servidor-web-y-visualización-del-proyecto)
-   - Iniciar el Servidor Web con PHP
-   - Visualizar la Página en el Navegador
-
-8. [Seguimos Trabajando con Git](#seguimos-trabajando-con-git)
-   - Crear una Copia de Respaldo del Archivo `index.html`
-   - Comprobar las Diferencias con `git diff`
-   - Restaurar el Archivo a la Versión Anterior
-   - Sobrescribir `index.html` con `index.html.save` usando `git mv`
-   - Realizar Cambios desde la Interfaz de GitHub y Sincronizar
-
-9. [Visualización del Historial de Confirmaciones con `git log`](#visualización-del-historial-de-confirmaciones-con-git-log)
-   - Mostrar el Historial Completo de Confirmaciones
-   - Mostrar los Logs de los Últimos 3 Commits
-   - Mostrar los Logs con el Modificador `--pretty`
-   - Mostrar los Logs de los Últimos 2 Commits con Diferencias
-   - Mostrar los Logs de las Modificaciones Realizadas en el Último Día
-
-10. [Ramas en Git](#ramas-en-git)
-    - Listar las Ramas Existentes
-    - Crear una Nueva Rama `Vers1`
-    - Modificar el Archivo `index.html` y Guardar en la Rama `Vers1`
-    - Subir la Rama `Vers1` al Repositorio Remoto
-    - Verificación de las Diferencias entre Ramas
+- [README - PPS Unidad 0 Actividad 3](#readme---pps-unidad-0-actividad-3)
+  - [Índice](#índice)
+  - [Introducción](#introducción)
+  - [Creación de repositorio](#creación-de-repositorio)
+  - [Visualizando la página web](#visualizando-la-página-web)
+  - [Colaborando en el Proyecto](#colaborando-en-el-proyecto)
+  - [Erre que erre con Git Logs](#erre-que-erre-con-git-logs)
 
 ---
 
 ## Introducción
-En esta actividad, aprenderemos los conceptos básicos de control de versiones con Git y la gestión de repositorios en GitHub. La actividad se centra en configurar Git en nuestro entorno de trabajo, crear un repositorio en GitHub y realizar operaciones esenciales de seguimiento de cambios en un proyecto de desarrollo web. A través de una serie de pasos guiados, abordaremos la configuración de usuario, personalización de Git, manejo de archivos con `.gitignore`, y los comandos fundamentales para crear, modificar y sincronizar proyectos en un repositorio remoto.
-
-El objetivo principal es familiarizarnos con el flujo de trabajo de Git para que podamos gestionar eficazmente el historial de versiones en futuros proyectos y colaborar en equipo de manera eficiente. Como práctica, desarrollaremos una simple página web con un mensaje de "Hola Mundo" que nos servirá para explorar cómo Git rastrea cambios y permite un control detallado del código fuente.
+En esta tercera y última práctica de Git, nos adentraremos en el trabajo colaborativo usando la plataforma GitHub. La actividad consiste en la creación de un repositorio compartido que permita visualizar perfiles de usuario en un proyecto en PHP. El objetivo es gestionar un proyecto donde cada colaborador pueda añadir su propia foto y una descripción en una página de perfil. Además, se espera que el repositorio contenga una documentación detallada de todo el proceso en formato Markdown (``README.md``), así como los archivos necesarios, incluyendo imágenes y otros documentos de soporte.
 
 ## Creación de repositorio 
 
